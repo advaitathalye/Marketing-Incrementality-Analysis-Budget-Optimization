@@ -7,6 +7,7 @@ Traditional marketing attribution is fundamentally broken. Last-click models and
 This project implements incrementality measurement, the gold standard used by companies like AG1, Caraway, and Sonos to measure the true causal impact of marketing investments and optimize budget allocation scientifically.
 
 **Key Results:**
+
 🔍 Identified 52-61% attribution bias across all channels in traditional models
 
 💰 Generated $33.6M budget reallocation recommendations (Email: +$8.7M, TV: -$13.5M)
