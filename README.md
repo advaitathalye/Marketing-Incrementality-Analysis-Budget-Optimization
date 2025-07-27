@@ -1,9 +1,13 @@
 # Marketing-Incrementality-Analysis-Budget-Optimization
-Incrementality Analysis | Marketing ROI Optimization | Causal measurement, Geo-Lift experiments, Multi-Touch Attribution, and budget allocation modeling in Python
+
+Incrementality Analysis | Marketing ROI Optimization | Causal measurement, Geo-Lift experiments, Multi-Touch Attribution, and budget allocation modeling in Python.
+
 Building the future of marketing measurement through causal inference and statistical rigor
 **Executive Summary**
 Traditional marketing attribution is fundamentally broken. Last-click models and multi-touch attribution confuse correlation with causation, leading to billions in wasted ad spend annually.
+
 This project implements incrementality measurement, the gold standard used by companies like AG1, Caraway, and Sonos to measure the true causal impact of marketing investments and optimize budget allocation scientifically.
+
 **Key Results:**
 🔍 Identified 52-61% attribution bias across all channels in traditional models
 💰 Generated $33.6M budget reallocation recommendations (Email: +$8.7M, TV: -$13.5M)
@@ -11,10 +15,14 @@ This project implements incrementality measurement, the gold standard used by co
 🧪 Geo-lift testing shows significant regional impact: APAC (107% lift), EU (143% lift), US (127% lift)
 
 **The Incrementality Revolution**
+
 **What is Incrementality?**
 Incrementality answers the fundamental question: "What would have happened without our ads?"
+
 Instead of assuming all conversions are caused by marketing, incrementality uses controlled experiments to isolate true causal impact.
+
 Incremental Lift = (Treatment Conversions - Control Conversions) / Control Conversions
+
 **Why It Matters**
 Traditional Attribution: "Our TV campaign drove 10,000 conversions!"
 Incrementality: "Our TV campaign drove 3,200 additional conversions (6,800 would have happened anyway)"
@@ -60,7 +68,8 @@ plt.bar(channel_summary['channel'], channel_summary['incremental_roi'], alpha=0.
 plt.ylabel('ROI')
 plt.title('Traditional vs Incremental ROI by Channel')
 plt.legend()
-plt.show()```
+plt.show()
+```
 
 2. Budget Allocation: Current vs Recommended
 ```# Calculate recommended spend
@@ -77,7 +86,8 @@ plt.bar(channel_summary['channel'], channel_summary['recommended_spend'], alpha=
 plt.ylabel('Budget ($)')
 plt.title('Budget Allocation: Current vs Recommended')
 plt.legend()
-plt.show()```
+plt.show()
+```
 
 3.Incrementality Lift by Region
 ```# Group by region and experiment group
@@ -96,7 +106,8 @@ plt.figure(figsize=(8,5))
 plt.bar(region_pivot['geo_region'], region_pivot['lift'], color='orange')
 plt.ylabel('Lift (%)')
 plt.title('Incrementality Lift by Region')
-plt.show()```
+plt.show()
+```
 
 4. Attribution Models: Last-Touch vs Linear vs Incrementality
 ```# Simulate customer journeys
@@ -143,7 +154,9 @@ mta_compare = last_touch.merge(linear_df, on='channel').merge(incrementality_df,
 mta_compare.set_index('channel')[['last_touch_conversions', 'linear_conversions', 'incrementality_conversions']].plot(kind='bar', figsize=(10,6))
 plt.title('Attribution Models: Last-Touch vs Linear vs Incrementality')
 plt.ylabel('Conversions')
-plt.show()```
+plt.show()
+```
+
 
  5. Budget Changes: Recommended vs Current
 ```import matplotlib.pyplot as plt
@@ -158,7 +171,8 @@ plt.bar(channels, budget_diff, color=['green' if x > 0 else 'red' for x in budge
 plt.axhline(0, color='black', linewidth=1)
 plt.title('Budget Changes: Recommended vs Current')
 plt.ylabel('Budget Difference ($)')
-plt.show() ```
+plt.show()
+```
 ________________________________________
 **📈 Key Insights & Business Impact**
 Strategic Findings
