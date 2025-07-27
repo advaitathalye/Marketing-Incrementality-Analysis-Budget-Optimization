@@ -43,6 +43,9 @@ geo_region, device, channel
 
 **Analysis Framework**
 1. Traditional vs Incremental ROI Comparison
+
+![Traditional vs Incremental ROI](https://github.com/advaitathalye/Marketing-Incrementality-Analysis-Budget-Optimization/blob/main/Traditional%20vs%20Incremental%20ROI%20by%20Channel.png)
+
 ```# Aggregate data by channel
 channel_summary = df.groupby('channel').agg({
     'spend': 'sum',
@@ -74,6 +77,9 @@ plt.show()
 ```
 
 2. Budget Allocation: Current vs Recommended
+
+![Budget Allocation](https://github.com/advaitathalye/Marketing-Incrementality-Analysis-Budget-Optimization/blob/main/Budget%20Allocation.png)
+
 ```# Calculate recommended spend
 total_budget = channel_summary['spend'].sum()
 channel_summary['recommended_spend'] = (
@@ -92,6 +98,9 @@ plt.show()
 ```
 
 3.Incrementality Lift by Region
+
+![Incrementality Lift by Region](https://github.com/advaitathalye/Marketing-Incrementality-Analysis-Budget-Optimization/blob/main/Incrementality%20Lift%20by%20Region.png)
+
 ```# Group by region and experiment group
 region_group = df.groupby(['geo_region', 'experiment_group']).agg({
     'conversions': 'sum'
@@ -112,6 +121,9 @@ plt.show()
 ```
 
 4. Attribution Models: Last-Touch vs Linear vs Incrementality
+
+![Attribution Models](https://github.com/advaitathalye/Marketing-Incrementality-Analysis-Budget-Optimization/blob/main/Attribution%20Models.png)
+
 ```# Simulate customer journeys
 import numpy as np
 import pandas as pd
@@ -161,6 +173,9 @@ plt.show()
 
 
  5. Budget Changes: Recommended vs Current
+
+![Budget Changes](https://github.com/advaitathalye/Marketing-Incrementality-Analysis-Budget-Optimization/blob/main/Budget%20Changes.png)
+
 ```import matplotlib.pyplot as plt
 import numpy as np
 
