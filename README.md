@@ -1,7 +1,5 @@
 # Marketing-Incrementality-Analysis-Budget-Optimization
 
-Incrementality Analysis | Marketing ROI Optimization | Causal measurement, Geo-Lift experiments, Multi-Touch Attribution, and budget allocation modeling in Python.
-
 Building the future of marketing measurement through causal inference and statistical rigor
 **Executive Summary**
 Traditional marketing attribution is fundamentally broken. Last-click models and multi-touch attribution confuse correlation with causation, leading to billions in wasted ad spend annually.
@@ -175,59 +173,68 @@ plt.show()
 ```
 ________________________________________
 **📈 Key Insights & Business Impact**
-Strategic Findings
-Email Marketing Severely Underfunded: Highest incremental ROI (1.71x) but only 3.2% of budget
-TV Budget Massively Inflated: Lowest incremental ROI (0.21x) consuming 43.7% of budget
-Attribution Bias Universal: All channels show 52-61% bias in traditional measurement
-EU Outperforms All Regions: 143% lift vs 127% (US) and 107% (APAC)
-Multi-Touch vs Single-Touch: Customer journey analysis reveals attribution complexity
-Business Recommendations
-Immediate: Reallocate $13.5M from TV to Email/Affiliate channels
-Regional: Increase EU investment given superior 143% lift performance
-Measurement: Replace last-touch attribution with incrementality-based models
-Testing: Expand geo-lift experiments to validate channel interactions
+
+-Email Marketing Severely Underfunded: Highest incremental ROI (1.71x) but only 3.2% of budget
+
+-TV Budget Massively Inflated: Lowest incremental ROI (0.21x) consuming 43.7% of budget
+
+-Attribution Bias Universal: All channels show 52-61% bias in traditional measurement
+
+-EU Outperforms All Regions: 143% lift vs 127% (US) and 107% (APAC)
+
+-Multi-Touch vs Single-Touch: Customer journey analysis reveals attribution complexity
+
+**Business Recommendations**
+-Immediate: Reallocate $13.5M from TV to Email/Affiliate channels
+
+-Regional: Increase EU investment given superior 143% lift performance
+
+-Measurement: Replace last-touch attribution with incrementality-based models
+
+-Testing: Expand geo-lift experiments to validate channel interactions
 ________________________________________
 **Technical Implementation**
 **Core Technologies**
-Python: Pandas, NumPy, Matplotlib, Seaborn
-Stats: Geo-Lift, t-tests, bootstrap
-Modeling: Linear Regression for MMM
-Visualization: Traditional vs Incremental ROI, Budget Allocation: Current vs Recommended, Incrementality Lift by Region, Attribution Models: Last-Touch vs Linear vs Incrementality, Budget Changes: Recommended vs Current
+-Python: Pandas, NumPy, Matplotlib, Seaborn
 
-haus_incrementality_project/
-├── data/
-│   └── Incrementality Analysis & Marketing ROI Optimization dataset.csv
-├── notebooks/
-│   └── Incrementality Analysis & Marketing ROI Optimization.ipynb
-├── visuals/
-│   ├── Traditional vs Incremental ROI by Channel.png
-│   ├── Budget Allocation: Current vs Recommended.png
-│   ├── Incrementality Lift by Region.png
-│   ├── Attribution Models: Last-Touch vs Linear vs Incrementality.png
-│   ├──Budget Changes: Recommended vs Current.png
-└── README.md
-________________________________________
+-Stats: Geo-Lift, t-tests, bootstrap
 
- Statistically significant incremental impact across all regions
+-Modeling: Linear Regression for MMM
+
+-Visualization: Traditional vs Incremental ROI, Budget Allocation: Current vs Recommended, Incrementality Lift by Region, Attribution Models: Last-Touch vs Linear vs Incrementality, Budget Changes: Recommended vs Current
+
 ________________________________________
 **Why This Matters for Modern Marketing**
 This analysis demonstrates the fundamental shift happening in marketing measurement:
+
 Old Way: Correlation-based attribution, wasted spend, gut-feel decisions
+
 New Way: Causal inference, incrementality focus, scientific optimization
+
 Companies implementing incrementality measurement see:
-20-40% improvement in marketing efficiency
-Millions saved from eliminating non-incremental spend
-Data-driven culture replacing opinion-based budget fights
+
+-20-40% improvement in marketing efficiency
+
+-Millions saved from eliminating non-incremental spend
+
+-Data-driven culture replacing opinion-based budget fights
 ________________________________________
 **Future Enhancements**
-Real-Time Monitoring: Live incrementality dashboards
-Advanced MMM: Saturation curves and adstock modeling
-Synthetic Controls: Enhanced causal inference methods
-Cross-Channel Attribution: Interaction effect measurement
+
+-Real-Time Monitoring: Live incrementality dashboards
+
+-Advanced MMM: Saturation curves and adstock modeling
+
+-Synthetic Controls: Enhanced causal inference methods
+
+-Cross-Channel Attribution: Interaction effect measurement
 ________________________________________
 **Contact & Collaboration**
+
 Built by Advait Athalye
+
 📧 Email: advaiitathalye@gmail.com
+
 🔗 LinkedIn: [linkedin.com/in/advait-athalye](https://www.linkedin.com/in/advaitathalye)
 
 
