@@ -8,8 +8,11 @@ This project implements incrementality measurement, the gold standard used by co
 
 **Key Results:**
 🔍 Identified 52-61% attribution bias across all channels in traditional models
+
 💰 Generated $33.6M budget reallocation recommendations (Email: +$8.7M, TV: -$13.5M)
+
 📈 Email severely underfunded: Highest incremental ROI (1.71x) with only 3% of budget
+
 🧪 Geo-lift testing shows significant regional impact: APAC (107% lift), EU (143% lift), US (127% lift)
 
 **The Incrementality Revolution**
@@ -174,34 +177,34 @@ plt.show()
 ________________________________________
 **📈 Key Insights & Business Impact**
 
--Email Marketing Severely Underfunded: Highest incremental ROI (1.71x) but only 3.2% of budget
+- Email Marketing Severely Underfunded: Highest incremental ROI (1.71x) but only 3.2% of budget
 
--TV Budget Massively Inflated: Lowest incremental ROI (0.21x) consuming 43.7% of budget
+- TV Budget Massively Inflated: Lowest incremental ROI (0.21x) consuming 43.7% of budget
 
--Attribution Bias Universal: All channels show 52-61% bias in traditional measurement
+- Attribution Bias Universal: All channels show 52-61% bias in traditional measurement
 
--EU Outperforms All Regions: 143% lift vs 127% (US) and 107% (APAC)
+- EU Outperforms All Regions: 143% lift vs 127% (US) and 107% (APAC)
 
--Multi-Touch vs Single-Touch: Customer journey analysis reveals attribution complexity
+- Multi-Touch vs Single-Touch: Customer journey analysis reveals attribution complexity
 
 **Business Recommendations**
--Immediate: Reallocate $13.5M from TV to Email/Affiliate channels
+- Immediate: Reallocate $13.5M from TV to Email/Affiliate channels
 
--Regional: Increase EU investment given superior 143% lift performance
+- Regional: Increase EU investment given superior 143% lift performance
 
--Measurement: Replace last-touch attribution with incrementality-based models
+- Measurement: Replace last-touch attribution with incrementality-based models
 
--Testing: Expand geo-lift experiments to validate channel interactions
+- Testing: Expand geo-lift experiments to validate channel interactions
 ________________________________________
 **Technical Implementation**
 **Core Technologies**
--Python: Pandas, NumPy, Matplotlib, Seaborn
+- Python: Pandas, NumPy, Matplotlib, Seaborn
 
--Stats: Geo-Lift, t-tests, bootstrap
+- Stats: Geo-Lift, t-tests, bootstrap
 
--Modeling: Linear Regression for MMM
+- Modeling: Linear Regression for MMM
 
--Visualization: Traditional vs Incremental ROI, Budget Allocation: Current vs Recommended, Incrementality Lift by Region, Attribution Models: Last-Touch vs Linear vs Incrementality, Budget Changes: Recommended vs Current
+- Visualization: Traditional vs Incremental ROI, Budget Allocation: Current vs Recommended, Incrementality Lift by Region, Attribution Models: Last-Touch vs Linear vs Incrementality, Budget Changes: Recommended vs Current
 
 ________________________________________
 **Why This Matters for Modern Marketing**
@@ -213,21 +216,21 @@ New Way: Causal inference, incrementality focus, scientific optimization
 
 Companies implementing incrementality measurement see:
 
--20-40% improvement in marketing efficiency
+- 20-40% improvement in marketing efficiency
 
--Millions saved from eliminating non-incremental spend
+- Millions saved from eliminating non-incremental spend
 
--Data-driven culture replacing opinion-based budget fights
+- Data-driven culture replacing opinion-based budget fights
 ________________________________________
 **Future Enhancements**
 
--Real-Time Monitoring: Live incrementality dashboards
+- Real-Time Monitoring: Live incrementality dashboards
 
--Advanced MMM: Saturation curves and adstock modeling
+- Advanced MMM: Saturation curves and adstock modeling
 
--Synthetic Controls: Enhanced causal inference methods
+- Synthetic Controls: Enhanced causal inference methods
 
--Cross-Channel Attribution: Interaction effect measurement
+- Cross-Channel Attribution: Interaction effect measurement
 ________________________________________
 **Contact & Collaboration**
 
