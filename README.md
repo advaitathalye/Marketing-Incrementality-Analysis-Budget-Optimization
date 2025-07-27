@@ -1,7 +1,9 @@
 # Marketing-Incrementality-Analysis-Budget-Optimization
 
 Building the future of marketing measurement through causal inference and statistical rigor
+
 **Executive Summary**
+
 Traditional marketing attribution is fundamentally broken. Last-click models and multi-touch attribution confuse correlation with causation, leading to billions in wasted ad spend annually.
 
 This project implements incrementality measurement, the gold standard used by companies like AG1, Caraway, and Sonos to measure the true causal impact of marketing investments and optimize budget allocation scientifically.
